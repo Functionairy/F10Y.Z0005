@@ -8,17 +8,12 @@
     <Version>1.0.0</Version>
     <Authors>DCoats</Authors>
     <Copyright>Copyright (c) Functionairy 2025</Copyright>
-    <Description>Generally-applicable instance set descriptor facet descriptor and facet search descriptor values.</Description>
+    <Description>Generally-applicable instance set descriptor facet descriptor values library.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/Functionairy/F10Y.Z0005.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\F10Y.L0026\source\F10Y.L0026.T003\F10Y.L0026.T003.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.T0011\source\F10Y.T0011\F10Y.T0011.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.Z0002\source\F10Y.Z0002\F10Y.Z0002.csproj" />
     <ProjectReference Include="..\..\..\F10Y.Z0008\source\F10Y.Z0008\F10Y.Z0008.csproj" />
-    <ProjectReference Include="..\F10Y.Z0005.Z001\F10Y.Z0005.Z001.csproj" />
-    <ProjectReference Include="..\F10Y.Z0005.Z002\F10Y.Z0005.Z002.csproj" />
   </ItemGroup>
 </Project>

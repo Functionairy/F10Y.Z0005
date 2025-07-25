@@ -1,2 +1,4 @@
 # F10Y.Z0005
-Generally-applicable instance set facet values.
+Generally-applicable instance set descriptor facet descriptor and facet search descriptor values.
+
+For the inner instance set descriptor facet values, see F10Y.Z0008.
