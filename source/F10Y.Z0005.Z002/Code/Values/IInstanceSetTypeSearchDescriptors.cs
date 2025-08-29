@@ -10,10 +10,10 @@ namespace F10Y.Z0005.Z002
     {
         public InstanceSetTypeSearchDescriptor_Name Find_CatchAllLibraries => Instances.InstanceSetTypeSearchDescriptorOperator.From(
             Instances.InstanceSetTypeNames.CatchAll_Library,
-            Instances.EqualityOperationDescriptors.For_String_Simple);
+            Instances.EqualityOperationDescriptors.Simple);
 
         public InstanceSetTypeSearchDescriptor_Name Find_FoundationLibraries => Instances.InstanceSetTypeSearchDescriptorOperator.From(
             Instances.InstanceSetTypeNames.Foundation_Library,
-            Instances.EqualityOperationDescriptors.For_String_Simple);
+            Instances.EqualityOperationDescriptors.Simple);
     }
 }

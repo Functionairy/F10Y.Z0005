@@ -6,7 +6,7 @@ using F10Y.T0003;
 namespace F10Y.Z0005.Z001
 {
     /// <summary>
-    /// Generally-applicable instance variety descriptors.
+    /// Generally-applicable instance variety descriptors (for instance sets, i.e. the instance variety facet for an instance set).
     /// </summary>
     [ValuesMarker]
     public partial interface IInstanceVarietyDescriptors
