@@ -17,20 +17,23 @@ namespace F10Y.Z0005.Z001 /// <see cref="Documentation"/>
 #pragma warning disable IDE1006 // Naming Styles
 
         /// <inheritdoc cref="IDomainSets_General.CSharp_NET"/>
-        public DomainDescriptor_Set CSharp_NET => Instances.DomainDescriptorOperator.From_Domains(
+        DomainDescriptor_Set CSharp_NET => Instances.DomainDescriptorOperator.From_Domains(
             Instances.DomainSets.CSharp_NET);
 
         /// <inheritdoc cref="IDomains_General.dotNET"/>
-        public DomainDescriptor_Set dotNET => Instances.DomainDescriptorOperator.From_Domains(
+        DomainDescriptor_Set dotNET => Instances.DomainDescriptorOperator.From_Domains(
             Instances.Domains.dotNET);
 
         /// <inheritdoc cref="IDomainSets_General.Example_PathsAndPathParts"/>
-        public DomainDescriptor_Set Example_PathsAndPathParts => Instances.DomainDescriptorOperator.From_Domains(
+        DomainDescriptor_Set Example_PathsAndPathParts => Instances.DomainDescriptorOperator.From_Domains(
             Instances.DomainSets.Example_PathsAndPathParts);
 
         /// <inheritdoc cref="IDomainSets_General.ProjectFile_XmlNodeNames"/>
-        public DomainDescriptor_Set ProjectFile_XmlNodeNames => Instances.DomainDescriptorOperator.From_Domains(
+        DomainDescriptor_Set ProjectFile_XmlNodeNames => Instances.DomainDescriptorOperator.From_Domains(
             Instances.DomainSets.ProjectFile_XmlNodeNames);
+
+        DomainDescriptor StaticHtml => Instances.DomainDescriptorOperator.From_Domain(
+            Instances.Domains.StaticHtml);
 
 #pragma warning restore IDE1006 // Naming Styles
     }

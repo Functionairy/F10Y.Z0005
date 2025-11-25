@@ -6,6 +6,7 @@ global using DependencySetDescriptor_Unconstrained = F10Y.L0026.T001.DependencyS
 global using DomainDescriptor = F10Y.L0026.T001.DomainDescriptor;
 global using DomainDescriptor_Set = F10Y.L0026.T001.DomainDescriptor_Set;
 global using ImplementationScheme = F10Y.L0026.T000.ImplementationScheme;
+global using InstanceVarietyDescriptor_Name = F10Y.L0026.T003.InstanceVarietyDescriptor_Name;
 global using InstanceVarietyDescriptor_Name_Set = F10Y.L0026.T003.InstanceVarietyDescriptor_Name_Set;
 global using InstanceVarietyDescriptor_Values = F10Y.L0026.T003.InstanceVarietyDescriptor_Values;
 global using NamingScheme = F10Y.L0026.T000.NamingScheme;
