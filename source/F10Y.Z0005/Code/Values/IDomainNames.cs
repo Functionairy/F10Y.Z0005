@@ -1,27 +1,30 @@
 using System;
 
 using F10Y.T0003;
+using F10Y.T0011;
 
 
 namespace F10Y.Z0005
 {
     /// <summary>
-    /// Instance set functionality domains.
+    /// Instance set functionality domain names.
     /// </summary>
     /// <remarks>
     /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
     /// <para>
     /// This library contains the facet descriptors of instance sets, as values.
-    /// If you want the <em>values</em> of the facet descriptors of instance sets, see <see cref="Z0008.IDomains"/>.
+    /// If you want the <em>values</em> of the facet descriptors of instance sets, see <see cref="Z0008.IDomainNames"/>.
     /// </para>
     /// </remarks>
     [ValuesMarker]
-    public partial interface IDomains :
-        Z0008.IDomains
+    [DomainDescriptor(Z0008.IDomainNames.Domain_Names_Constant)]
+    public partial interface IDomainNames :
+        Z0008.IDomainNames
     {
 #pragma warning disable IDE1006 // Naming Styles
 
-        public Z0008.IDomains _Z0008 => Z0008.Domains.Instance;
+        [Ignore]
+        Z0008.IDomainNames _Z0008 => Z0008.DomainNames.Instance;
 
 #pragma warning restore IDE1006 // Naming Styles
 
@@ -29,11 +32,11 @@ namespace F10Y.Z0005
         /// <summary>
         /// <para><value>Instance Set-Machinery</value></para>
         /// </summary>
-        public string InstanceSet_Machinery => "Instance Set-Machinery";
+        string InstanceSet_Machinery => "Instance Set-Machinery";
 
         /// <summary>
         /// <para><value>Instance Set Search-Machinery</value></para>
         /// </summary>
-        public string InstanceSetSearch_Machinery => "Instance Set Search-Machinery";
+        string InstanceSetSearch_Machinery => "Instance Set Search-Machinery";
     }
 }

@@ -1,4 +1,7 @@
 ﻿
+global using DomainSetDescriptorAttribute = F10Y.L0026.T007.DomainSetDescriptorAttribute;
+global using DomainDescriptorAttribute = F10Y.L0026.T007.DomainDescriptorAttribute;
+
 global using DomainDescriptor_Set = F10Y.L0026.T001.DomainDescriptor_Set;
 global using InstanceSetFlowDescriptor_Deprecate = F10Y.L0026.T003.InstanceSetFlowDescriptor_Deprecate;
 global using InstanceSetFlowDescriptor_Librarate = F10Y.L0026.T003.InstanceSetFlowDescriptor_Librarate;

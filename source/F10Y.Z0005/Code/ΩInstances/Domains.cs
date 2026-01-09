@@ -3,11 +3,11 @@ using System;
 
 namespace F10Y.Z0005
 {
-    public class Domains : IDomains
+    public class Domains : IDomainNames
     {
         #region Infrastructure
 
-        public static IDomains Instance { get; } = new Domains();
+        public static IDomainNames Instance { get; } = new Domains();
 
 
         private Domains()

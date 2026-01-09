@@ -8,7 +8,10 @@ namespace F10Y.Z0005.Z002
     [ValuesMarker]
     public partial interface IInstanceVarietySearchDescriptors
     {
-        public InstanceVarietySearchDescriptor_Values Absolute_Direct_Unadorned => Instances.InstanceVarietySearchDescriptorOperator.From(
+        InstanceVarietySearchDescriptor_Name Values => Instances.InstanceVarietySearchDescriptorOperator.From(
+            Instances.InstanceVarietyNames.Values);
+
+        InstanceVarietySearchDescriptor_Values Absolute_Direct_Unadorned => Instances.InstanceVarietySearchDescriptorOperator.From(
             Instances.NamingSchemeSearchDescriptors.Absolute,
             Instances.ImplementationSchemeSearchDescriptors.Direct,
             Instances.TypingSchemeSearchDescriptors.Unadorned);

@@ -3,11 +3,11 @@ using System;
 
 namespace F10Y.Z0005
 {
-    public class DomainSets : IDomainSets
+    public class DomainSets : IDomainNameSets
     {
         #region Infrastructure
 
-        public static IDomainSets Instance { get; } = new DomainSets();
+        public static IDomainNameSets Instance { get; } = new DomainSets();
 
 
         private DomainSets()
@@ -21,11 +21,11 @@ namespace F10Y.Z0005
 
 namespace F10Y.Z0005.Raw
 {
-    public class DomainSets : IDomainSets
+    public class DomainSets : IDomainNameSets
     {
         #region Infrastructure
 
-        public static IDomainSets Instance { get; } = new DomainSets();
+        public static IDomainNameSets Instance { get; } = new DomainSets();
 
 
         private DomainSets()

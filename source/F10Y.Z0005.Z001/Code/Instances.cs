@@ -11,10 +11,10 @@ namespace F10Y.Z0005.Z001
         /// <inheritdoc cref="IDependencyDescriptors"/>
         public static IDependencyDescriptors DependencyDescriptors => Z001.DependencyDescriptors.Instance;
         public static L0026.T001.IDomainDescriptorOperator DomainDescriptorOperator => L0026.T001.DomainDescriptorOperator.Instance;
-        /// <inheritdoc cref="Z0008.IDomains"/>
-        public static Z0008.IDomains Domains => Z0008.Domains.Instance;
-        /// <inheritdoc cref="Z0008.IDomainSets"/>
-        public static Z0008.IDomainSets DomainSets => Z0008.DomainSets.Instance;
+        /// <inheritdoc cref="Z0008.IDomainNames"/>
+        public static Z0008.IDomainNames DomainNames => Z0008.DomainNames.Instance;
+        /// <inheritdoc cref="Z0008.IDomainNameSets"/>
+        public static Z0008.IDomainNameSets DomainNameSets => Z0008.DomainNameSets.Instance;
         public static L0026.T003.IInstanceVarietyDescriptorOperator InstanceVarietyDescriptorOperator => L0026.T003.InstanceVarietyDescriptorOperator.Instance;
         public static Z0008.IInstanceVarietyNames InstanceVarietyNames => Z0008.InstanceVarietyNames.Instance;
     }
