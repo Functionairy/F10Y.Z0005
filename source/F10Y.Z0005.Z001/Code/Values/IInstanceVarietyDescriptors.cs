@@ -1,6 +1,7 @@
 using System;
 
 using F10Y.T0003;
+using F10Y.T0011;
 
 
 namespace F10Y.Z0005.Z001
@@ -9,8 +10,17 @@ namespace F10Y.Z0005.Z001
     /// Generally-applicable instance variety descriptors (for instance sets, i.e. the instance variety facet for an instance set).
     /// </summary>
     [ValuesMarker]
-    public partial interface IInstanceVarietyDescriptors
+    public partial interface IInstanceVarietyDescriptors :
+        L0026.T003.IInstanceVarietyDescriptors
     {
+#pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
+        L0026.T003.IInstanceVarietyDescriptors _L0026_T003 => L0026.T003.InstanceVarietyDescriptors.Instance;
+
+#pragma warning restore IDE1006 // Naming Styles
+
+
         InstanceVarietyDescriptor_Name_Set Functions_Values => Instances.InstanceVarietyDescriptorOperator.From_Names(
             Instances.InstanceVarietyNames.Functions,
             Instances.InstanceVarietyNames.Values);
